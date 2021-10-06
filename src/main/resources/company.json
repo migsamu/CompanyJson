@@ -1,0 +1,39 @@
+{
+  "name": "Mi empresa",
+  "departments": [
+    {
+      "name": "IT",
+      "employees": [
+        {
+          "nif": "45645678h",
+          "name": "Miguel",
+          "surname": "Sánchez Muñoz",
+          "role": "Developer"
+        },
+        {
+          "nif": "456421678a",
+          "name": "Alvaro",
+          "surname": "Sánchez Muñoz",
+          "role": "Developer"
+        }
+      ]
+    },
+    {
+      "name": "Finanzas",
+      "employees": [
+        {
+          "nif": "45645128h",
+          "name": "Antonio",
+          "surname": "Sánchez Muñoz",
+          "role": "Comercial"
+        },
+        {
+          "nif": "456421678a",
+          "name": "Marta",
+          "surname": "Sánchez Muñoz",
+          "role": "Comercial"
+        }
+      ]
+    }
+  ]
+}
