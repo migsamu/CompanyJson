@@ -1,0 +1,14 @@
+[
+  {
+    "nif": "45645678h",
+    "name": "Miguel",
+    "surname": "Sánchez Muñoz",
+    "role": "Developer"
+  },
+  {
+    "nif": "456421678a",
+    "name": "Alvaro",
+    "surname": "Sánchez Muñoz",
+    "role": "Developer"
+  }
+]

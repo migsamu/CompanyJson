@@ -10,7 +10,7 @@ import java.net.URISyntaxException;
 
 public class Main {
 
-    private static Logger logger = LoggerFactory.getLogger(Main.class);
+    private static final Logger logger = LoggerFactory.getLogger(Main.class);
 
     public static void main(String[] args) {
         ObjectMapper mapper = new ObjectMapper();
@@ -18,6 +18,9 @@ public class Main {
         try {
             Company company = mapper.readValue(new File(Main.class.getResource("/company.json").toURI()), Company.class);
             logger.info(company.toString());
+
+            mapper.writeValue(new File("ITempleados.json"), company.getEmployees("IT"));
+
         } catch (IOException e) {
             e.printStackTrace();
         } catch (URISyntaxException e) {

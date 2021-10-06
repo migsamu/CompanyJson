@@ -26,7 +26,7 @@ public class Company {
     public List<Employee> getEmployees(String department) {
 
         for (Department dep : departments) {
-            if (dep.equals(department)) {
+            if (dep.getName().equals(department)) {
                 return dep.getEmployees();
             }
         }
